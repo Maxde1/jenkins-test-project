@@ -11,6 +11,10 @@ public class TestDogClass {
         dog = new Dog();
     }
 
+    @Test
+    public void verifyBreed() {
+        Assert.assertEquals(dog.getBreed(), "Airedale Terrier");
+    }
 
     @Test
     public void verifyBarkMethod() {
